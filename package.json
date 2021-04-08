@@ -13,7 +13,11 @@
     "params",
     "query-params",
     "hide",
-    "security"
+    "security",
+    "encrypt",
+    "decrypt",
+    "url params",
+    "parameters"
   ],
   "author": "thealoneprogrammer",
   "license": "ISC",

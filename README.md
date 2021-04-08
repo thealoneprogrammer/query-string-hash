@@ -40,6 +40,8 @@ const { decryptQueryParams } = require('query-string-hash')
 const key = "real secret keys should be long and random";
 
 const queryParams = decryptQueryParams(hash, key) //returns the decrypted query params which can be used for further processing in JSON format.
+Or
+const queryParams = decryptQueryParams(hash, key) //key is optional
 
 // Output 
 // queryParams = {
@@ -48,3 +50,18 @@ const queryParams = decryptQueryParams(hash, key) //returns the decrypted query 
   number: '9876543210'
 }
 ```
+
+## **Usage with ES6**
+```js
+import { encryptQueryParams, decryptQueryParams } from "query-string-hash";
+```
+
+## **Options**
+1. **hash**: {
+    type: string,
+    required: true
+}
+2. **key**: {
+    type: string,
+    required: false
+}
