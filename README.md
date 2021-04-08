@@ -41,7 +41,7 @@ const key = "real secret keys should be long and random";
 
 const queryParams = decryptQueryParams(hash, key) //returns the decrypted query params which can be used for further processing in JSON format.
 Or
-const queryParams = decryptQueryParams(hash, key) //key is optional
+const queryParams = decryptQueryParams(hash) //key is optional
 
 // Output 
 // queryParams = {
