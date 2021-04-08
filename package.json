@@ -1,0 +1,28 @@
+{
+  "name": "query-string-hash",
+  "version": "1.0.0",
+  "description": "Hash querystring params",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
+  },
+  "keywords": [
+    "query-string",
+    "hash",
+    "params",
+    "query-params",
+    "hide",
+    "security"
+  ],
+  "author": "thealoneprogrammer",
+  "license": "ISC",
+  "dependencies": {
+    "query-string": "^7.0.0",
+    "simple-encryptor": "^4.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
