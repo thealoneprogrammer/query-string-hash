@@ -1,6 +1,6 @@
 {
   "name": "query-string-hash",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Hash querystring params",
   "main": "index.js",
   "scripts": {
