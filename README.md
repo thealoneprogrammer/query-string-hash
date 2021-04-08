@@ -11,6 +11,8 @@ query-string-hash hides the query string params by encrypting them it into two w
 ## **Install**
 ```sh 
 $ npm install query-string-hash 
+OR
+$ yarn add query-string-hash
 ```
 
 This module uses [simple-encryptor](https://www.npmjs.com/package/simple-encryptor). to encrypt and decrypt the string and [query-string](https://www.npmjs.com/package/query-string) to parse the string.
@@ -30,7 +32,7 @@ Or
 const hash = encryptQueryParams(queryParams) // key is optiinal.
 
 // Output 
-// hash = 0561267fc5adccb1a3898b2d24af78b1eb69b980b5a1180d60494f9d64afccbd081b27110880da8fadbe10ffa3fa4420uO8Ub4lj652Veq5u4DraQ2YH9j96/VjfFMQfJaYE7W05io6I4WQgV8QbZAA+Wc4R
+hash = 0561267fc5adccb1a3898b2d24af78b1eb69b980b5a1180d60494f9d64afccbd081b27110880da8fadbe10ffa3fa4420uO8Ub4lj652Veq5u4DraQ2YH9j96/VjfFMQfJaYE7W05io6I4WQgV8QbZAA+Wc4R
 ```
 
 ##### **At decryption side**
@@ -44,7 +46,7 @@ Or
 const queryParams = decryptQueryParams(hash) //key is optional
 
 // Output 
-// queryParams = {
+queryParams = {
   age: '22',
   name: 'John',
   number: '9876543210'

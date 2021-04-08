@@ -1,3 +1,7 @@
+/**
+ * @param  {} encryptedHash=''
+ * @param  {} key='realsecretkeysshouldbelongandrandom'
+ */
 const decryptQueryParams = (encryptedHash = '', key = 'real secret keys should be long and random') => {
     const encryptor = require("simple-encryptor")(key);
     const queryString = require("query-string");
