@@ -67,3 +67,13 @@ import { encryptQueryParams, decryptQueryParams } from "query-string-hash";
     type: string,
     required: false
 }
+
+## **Development**
+Install packages
+```sh
+$ npm install
+```
+Build
+```sh
+$ npm run build
+```
